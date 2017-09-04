@@ -51,9 +51,24 @@ html, body {
 		height: 30px;
 		border-radius: 50%;
 		margin: 0 0 0 10px;
+        font-size: 15px;
+        padding: 8px 0 0 0;
+        text-align: center;
+        color: #2a2a2a;
+
+
+
 		&:first-child {
 			margin: 0;
 		}
+
+
+      &:last-child{
+
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
 	}
 }
 
