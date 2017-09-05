@@ -7,6 +7,7 @@ window.onload = function () {
         autoplayHoverPause:true,
         margin: 0,
         nav: true,
+        dots:true,
         items: 2,
         itemsCustom: false,
         responsive: {
@@ -16,5 +17,12 @@ window.onload = function () {
         }
     });
 
+
+    if ( $( ".owl-item" ).hasClass( "active" ) ) {
+
+        $( ".slider-content" ).css("right","0");
+
+
+    }
 
 };
