@@ -294,7 +294,7 @@ html, body {
 
 		.post-link{
 			font-size: 13px;
-			margin: 9px 0 14px 0;
+			margin: 20px 0 14px 0;
 			display: inline-block;
 		}
 
@@ -476,6 +476,8 @@ html, body {
 
 	.projects-section{
 
+		@include clear();
+
 		.projects-titles{
 			margin: 0 0 20px 0;
 			@include clear();
@@ -519,6 +521,32 @@ html, body {
 				}
 
 			}
+		}
+	}
+
+	.team-section{
+		@include clear();
+		padding: 60px 0 55px 0;
+
+		.team-title{
+
+			font-size:36px;
+			color: #333333;
+			line-height: 43px;
+
+		}
+
+		.staff-name{
+			font-size:16px;
+			color: #333333;
+			text-transform: uppercase;
+		}
+
+		.staff-status{
+
+			font-size:11px;
+			color: #979797;
+			margin: 10px 0 16px 0;
 		}
 	}
 
