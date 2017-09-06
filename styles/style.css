@@ -621,6 +621,44 @@ html, body {
   margin: 10px 0 16px 0;
 }
 
+.site-footer {
+  width: 100%;
+  background: #1c1c1c;
+}
+
+.site-footer .footer-top-arrow {
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.site-footer .footer-top-arrow .scroll-top:after {
+  content: "top";
+  text-transform: uppercase;
+  color: #666666;
+  font-size: 12px;
+  position: relative;
+  right: 52px;
+}
+
+.site-footer .footer-content {
+  padding: 40px 0 0 0;
+}
+
+.site-footer .footer-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-footer .footer-content .footer-title {
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 0 22px 0;
+}
+
 /*
 * Ie fixes
 */
